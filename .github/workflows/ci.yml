@@ -20,7 +20,7 @@ jobs:
 
       - name: Build image
         run: |
-          wget https://raw.githubusercontent.com/alpinelinux/alpine-make-vm-image/v0.12.0/alpine-make-vm-image \
+          wget https://raw.githubusercontent.com/alpinelinux/alpine-make-vm-image/v0.13.0/alpine-make-vm-image \
             && echo '75aafcb883155bcaad9ad0dadb3e22e082152c1e  alpine-make-vm-image' | sha1sum -c \
             || exit 1
           chmod +x ./alpine-make-vm-image
